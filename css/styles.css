@@ -82,3 +82,21 @@ li {
 .close {
   color: red;
 }
+
+@media screen and (max-width: 767px) {
+  header {
+    margin-bottom: 15px;
+  }
+
+  #tarefa {
+    width: 280px;
+  }
+
+  #btn {
+    width: 70px;
+  }
+
+  li {
+    width: 300px;
+  }
+}
