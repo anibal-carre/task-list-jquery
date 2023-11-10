@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #12263d;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#tarefa {
+  width: 500px;
+  height: 50px;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#btn {
+  width: 80px;
+  height: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: #120907;
+  color: white;
+  border-radius: 6px;
+}
+
+#btn:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+#lista {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 15px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  height: 50px;
+  border: 1px solid black;
+  list-style: none;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: #120907;
+}
+
+.text:hover,
+.check:hover,
+.close:hover {
+  cursor: pointer;
+}
+
+.close {
+  color: red;
+}
